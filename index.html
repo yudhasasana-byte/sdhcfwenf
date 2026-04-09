@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>register form</title>
+<link rel="stylesheet" href="7.css">
+</head>
+<body>
+<div class="kotak">
+<h1>register form</h1>
+<p class="subjudul">fill in the correct information</p>
+<label>name</label>
+<input type="text" id="name" placeholder="e.g bob">
+<p class="smalltext">name according to ktp</p>
+<label>class</label>
+<input type="text" id="class" placeholder="e.g 1a/2b/3c">
+<p class="smalltext">current class/future</p>
+<label><input type="radio" name="gender" value="male">male</label>
+<label><input type="radio" name="gender" value="female">female</label>
+<label class="title">pick a cca</label>
+<label><input type="checkbox" name="cca" value="basket">basketball</label>
+<label><input type="checkbox" name="cca" value="futsal">futsal</label>
+<label><input type="checkbox" name="cca" value="paduansuara">paduan suara</label>
+<p class="smalltext">pick one or more(optional)</p>
+<label class="title">pick a schedule</label>
+<label><input type="radio" name="jadwal" value="morning">morning(07.00-12.00)</label>
+<label><input type="radio" name="jadwal" value="noon">noon(12.30-17.00)</label>
+<label><input type="radio" name="jadwal" value="night">night(17.30-20.30)</label>
+<label><input type="radio" name="jadwal" value="mixed">mixed(anytime)</label>
+<p class="smalltext">mandatory</p>
+<div>
+<button id="tampil">submit</button>
+<button id="reset">reset</button>
+</div>
+<div id="hasil"></div>
+</div>
+<script src="7.js"></script>
+</body>
+</html>

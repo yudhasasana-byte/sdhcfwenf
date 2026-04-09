@@ -1,0 +1,69 @@
+body {
+background: #f3f4f6;
+min-height: 100vh;
+display: flex;
+align-items: center;
+margin: 0;
+padding: 20px;
+}
+.kotak {
+max-width: 500px;
+width: 100%;
+background: white;
+padding: 30px;
+border-radius: 12px;
+margin: auto;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+overflow-wrap: break-word;
+}
+label {
+display: block;
+margin-top: 20px;
+font-size: 0.9rem;
+color: #4b5563;
+font-weight: 600;
+margin-bottom: 8px;
+}
+.kotak2 {
+margin-top: 25px;
+padding: 15px;
+background-color: #f9fafb;
+border: 1px solid #e5e7eb;
+border-radius: 12px;
+font-weight: 500;
+white-space: pre-line;
+color: #111827;
+}
+button {
+cursor: pointer;
+background-color: #7d7d7d;
+color: white;
+border: none;
+width: 100%;
+padding: 16px;
+border-radius: 12px;
+font-weight: bold;
+font-size: 1rem;
+transition: all 0.3s ease;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+button:hover {
+background-color: #e6e6e6;
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+h1, .subjudul {
+text-align: center;
+color: #111827;
+margin-bottom: 10px;
+}
+.smalltext {
+font-size: 13px;
+color: #9ca3af;
+text-align: center;
+display: block;
+margin-top: 15px;
+}
+.title {
+color: #374151;
+font-weight: 800;
+}
